@@ -13,7 +13,7 @@
 
 * emphasize em/rem units
 * more flexbox work
-* implement a '@'media scaling
+* implement a @media scaling
 
 ## Tasks
 
