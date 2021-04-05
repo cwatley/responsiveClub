@@ -24,7 +24,7 @@
     `<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">`
   * JetBrains Mono - Title, headings
     `<link rel="preconnect" href="https://fonts.gstatic.com">`
-    `<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">`
+    `<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">`
 * choose color palette
   * `#434a42 - Rifle Green`
   * `#626c66 - Nickel`
