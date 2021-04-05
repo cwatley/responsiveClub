@@ -1,0 +1,72 @@
+html {
+    background-color: #626c66;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(12, 10vh);
+    grid-template-areas:
+        "title title title"
+        "title title title"
+        "title title title"
+        "updates updates meetups"
+        "updates updates meetups"
+        "updates updates meetups"
+        "updates updates meetups"
+        "membergear membergear membergear"
+        "membergear membergear membergear"
+        "members members members"
+        "members members members"
+        "footer footer footer";
+}
+
+body {
+    font-size: 1.25em;
+    font-family: 'Arvo', serif;
+    margin: 1em;
+    background-color: #424a42;
+    max-width: 1140px;
+}
+
+#title {
+    font-size: 2.5em;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    background-image: url(assets/title.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    grid-area: title;
+}
+
+h1 {
+    font-size: 1.75em;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#updates {
+    grid-area: updates;
+}
+
+#meetups {
+    grid-area: meetups;
+}
+
+#membergear {
+    grid-area: membergear;
+}
+
+#members {
+    grid-area: members;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+
